@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu-ADM</title>
+    <link rel="stylesheet" href="./assets/css/adm.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="contLogo">
+            <a href="index.html"><img src="./assets/img/Logo.png" alt="logo"></a>
+            <input type="text" placeholder="¿Que deseas buscar?" >
+            <a href="admin.html"><button>Menu Administrador</button> </a>
+       </div> 
+    </header>
+
+    <section class="AgregarProducto">
+            <div>
+                <p>Agregar nuevo producto</p>
+            </div>
+                    <div class="contInputs">
+                        <div class="inputs">
+                                <input type="text" placeholder="URL de imag" data-form-img>
+                        </div>
+                        <div class="inputs">
+                                <input type="text" placeholder="Nombre del Producto" data-form-name>
+                        </div>
+                        <div class="inputs">
+                                <input type="text" placeholder="Precio del Producto"data-form-precio>
+                        </div>
+                        <div class="inputs">
+                                <input type="text" placeholder="Descripcion del Producto" data-form-desc>
+                        </div>
+                    </div>
+                
+            <div>
+                <button type="submit" data-form-btn>Agregar Producto</button>
+            </div>
+
+            <div data-card>
+
+            </div>
+
+    </section>
+
+    <footer>
+        <div class="contFooter">
+            <div class="contLogoFooter">
+                <img src="./assets/img/Logo.png" alt="logo">
+            </div>
+            
+            <div class="contLinks">
+                <ul>
+                    <li>Quienes somos</li>
+                    <li>Politicas de privacidad</li>
+                    <li>Programa de fidelidad</li>
+                    <li>Nuestras tiendas</li>
+                    <li>Quiero ser franquisiado</li>
+                    <li>Anuncie aqui</li>
+                </ul>
+            </div>
+            <div class="contFormulario">
+                <form>
+                    <p>Hable con nosotros</p>
+                    <input type="text" id="nombre" placeholder="Nombre">
+                    <textarea class="txtArea" name="mensaje" id="mensaje" cols="50" rows="5" placeholder="Escribe tu mensaje"></textarea>
+                    <button>Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="textoFinal">
+            <a href="https://www.linkedin.com/in/diego-orona/"><p>Desarrolado por Diego Orona. 2023</p></a> 
+        </div>
+        
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

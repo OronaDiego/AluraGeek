@@ -1,0 +1,192 @@
+header{
+    width: 100%;
+}
+.contLogo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.contLogo input{
+    background: #A2A2A2;
+    width: 393px;
+    height: 40px;
+    padding: 5px;
+    margin: 0 10px 0;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.contLogo button{
+    padding: 16px;   
+    color: #2A7AE4;
+   border: 1px solid #2A7AE4;
+   background-color: #fff;
+}
+@media screen and (max-width:360px) {
+    .contLogo input{
+        display: none;
+    }
+   
+}
+/* ======================PRODUCTOS======================== */
+.contProductos{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 7rem;
+    flex-wrap: wrap;
+}
+.contProductos h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #464646;
+}
+.contProductos h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #464646;
+}
+.contProductos a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #464646;
+    text-decoration: none;
+}
+.contTitulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    
+}
+.contTitulo p{
+    font-family: 'Raleway', sans-serif;
+    color: #464646;
+    font-size: 32px;
+    font-weight: 700;
+}
+.contTitulo button{
+    font-family: 'Raleway', sans-serif;
+    background: #2A7AE4;
+    color: #fff;
+    border: none;
+    padding: 16px;
+    cursor: pointer;
+}
+.ContTodoProducto{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+@media screen and (max-width:768px) {
+   .contTitulo{
+    display: block;
+   }
+       
+}
+/* =============================FOOTER==================== */
+.contFooter{
+    display: flex;
+    justify-content: space-around;
+    padding: 64px;
+    flex-wrap: wrap;
+}
+.contFormulario form{
+    flex-direction: column;
+    display: flex;
+    width: 560px;
+    align-items: flex-start;
+
+}
+
+.contLinks li{
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+    color: #464646;
+    font-size: 16px;
+
+}
+.contFormulario{
+    font-family: 'Raleway', sans-serif;
+    color: #464646;
+    font-size: 16px;
+}
+.contFormulario button{
+    background-color: #2A7AE4;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    padding: 16px;
+}
+.contFormulario input{
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+}
+.contFormulario textarea{
+    
+    width: 100%;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+footer{
+    background-color: #EAF2FD;
+}
+.textoFinal a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: #464646;
+}
+@media screen and (max-width:768px) {
+    .contFooter{
+        flex-direction: column;
+        
+        
+    }
+}
+
+
+ /* ==========Section menuAdministrador================ */
+
+.AgregarProducto{
+    display: flex;
+    width: 1440px;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    padding: 64px;
+
+}
+.AgregarProducto p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    color: #464646;
+}
+.AgregarProducto button{
+    padding: 16px;
+    background-color: #2A7AE4;
+    border: none;
+    color: #fff;
+}
+.contInputs{
+    display: flex;
+    width: 50vw;
+    flex-direction: column;
+    gap: 16px;
+}
+.inputs{
+    display: flex;
+    padding: 0px 12px;
+    align-items: center;
+    
+}
+.inputs input{
+    width: 100%;
+}
